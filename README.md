@@ -8,8 +8,7 @@ This respiratory tracks my progress on working on the ARC competition. Solving t
 - /output
   - /checkpoint: Checkpoint path to save and load models to resume training.
   - /results: Contains results from different model training sessions, including accuracy, loss plots, or model checkpoints.
-- /utils: Utility scripts for tasks such as data preprocessing, metrics calculation, and visualization.
-  - /analytics: Contains noted insights I have gathered while analysing the dataset.
+- grid_util.py: Utility scripts for tasks such as data preprocessing, metrics calculation, and visualization.
 - /experiments: Contains experimented models I have tried implementing from scratch or intuition - basically failed models. Each model has corresponding output folder.
 - `/ARC-AGI`: Imported dataset from the competition's respiratory.
 

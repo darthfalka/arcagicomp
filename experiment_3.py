@@ -56,7 +56,6 @@ class Head(nn.Module):
         print(f"Shape of inputs after concatting with the grid tensors: {inputs.shape}")
         output = self.relu(self.fc(inputs.reshape(inputs.shape[0], 900 * 900).unsqueeze(0))) # [900]
         output = output.permute(1, 0, 2)
-        print(torch.ceil(output))
         return output 
     
 class CustomTrainer:

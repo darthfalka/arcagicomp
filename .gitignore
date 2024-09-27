@@ -1,1 +1,4 @@
 test_playbook.py
+arcagi/eval "$(ssh-agent -s)"
+arcagi/eval "$(ssh-agent -s)".pub
+/models
